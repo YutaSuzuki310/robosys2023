@@ -1,7 +1,7 @@
 #!/bin/bash
 # SPDX-FileCopyrightText: 2023 Suzuki Yuta
 # SPDX-License-Identifier: BSD-3-Clause
-　
+
 ng () {
       echo NG at Line $1
       res=1
