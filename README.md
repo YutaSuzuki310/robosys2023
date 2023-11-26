@@ -1,21 +1,14 @@
-# Name
+# robosys2023_1
 
-Calcn
-
-First problem of robosys2023
+ロボットシステム学の課題１
 
 # Requirement
 
-* Python 3.8.10
-
-# Installation
-
-Please install Python3.
-
+* Python(テスト済み: 3.7～3.10)
 
 # Usage
 
-Please input a number.Then you can 
+数字を入力してください。
 
 # Author
 
