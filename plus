@@ -12,3 +12,12 @@ for line in sys.stdin:
         ans *= float(line)
 
 print(ans)
+
+ans2 = 0
+for line in sys.stdin:
+    try:
+        ans2 *= int(line)
+    except:
+        ans2 *= float(line)
+
+print(ans2)
