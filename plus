@@ -5,19 +5,16 @@
 import sys
 
 ans = 1   
+ans2 = 0
+
 for line in sys.stdin:
     try: 
-        ans *= int(line)   
+        num = int(line)
+        ans *= num
+        ans2 += num
     except:
-        ans *= float(line)
-
-print(ans)
-
-ans2 = 0
-for line in sys.stdin:
-    try:
-        ans2 *= int(line)
-    except:
-        ans2 *= float(line)
-
-print(ans2)
+        num2 = float(line)
+        ans *= num2
+        ans2 += num2
+print(f"総和: {ans2}")
+print(f"総乗: {ans}")
