@@ -10,14 +10,14 @@ ng () {
 res=0
 
 ### I/O TEST ###
-out=$(echo -e "2\n3\n4\n5" | ./your_script_name)
+out=$(echo -e "2\n3\n4\n5" | ./plus)
 [ "${out}" = "総和: 14\n総乗: 120" ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./your_script_name)
+out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 
-out=$(echo | ./your_script_name) #空文字
+out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK        # &&（AND記号）は左側が成功すると右側を実行
