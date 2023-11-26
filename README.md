@@ -1,17 +1,15 @@
 # robosys2023_1
-
 ロボットシステム学の課題１
 
 # Requirement
-
 * Python(テスト済み: 3.7～3.10)
 
 # Usage
+「plus」という名前のpythonのプログラムファイルを作成してください。そして同様の名前のファイルのコードをgithubからコピー＆ペーストして保存し
 $ seq "自然数" | ./plus
-と入力すると指定した自然数までの数列の和が表示されます。
+と入力すると指定した自然数までの総和、総乗が表示されます。
 
 # Author
-
 * Yuta Suzuki
 * s22c1071za@s.chibakoudai.jp
 
