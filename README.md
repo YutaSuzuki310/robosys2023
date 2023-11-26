@@ -5,10 +5,7 @@
 * Python(テスト済み: 3.7～3.10)
 
 # plusコマンド
-![test](https://github.com/yutasuzuki310/robosys2023/.github/workflows/test.yml/badge.svg)
-↑ テスト結果を反映したバッジの画像が埋め込まれる。（ryuichiueda等は各自変更を。）
-
-標準入力から読み込んだ数字を足す。
+![test](https://github.com/yutasuzuki310/robosys2023/actions/workflows/test.yml/badge.svg)
 
 
 # Usage
