@@ -1,4 +1,6 @@
-# robosys2023
+# Name
+
+Calcn
 
 First problem of robosys2023
 
@@ -8,16 +10,16 @@ First problem of robosys2023
 
 # Installation
 
+Please install Python3.
 
 
 # Usage
 
 Please input a number.Then you can 
 
-#Author
+# Author
 
 * Yuta Suzuki
-* 
 * s22c1071za@s.chibakoudai.jp
 
 # License
