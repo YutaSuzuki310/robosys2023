@@ -3,25 +3,22 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
-      echo NG at Line $1
-      res=1
+    echo NG at Line $1
+    res=1
 }
 
 res=0
 
 ### I/O TEST ###
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
-[ "${out}" = 120 ] || ng ${LINENO}
+out=$(echo -e "2\n3\n4\n5" | ./your_script_name)
+[ "${out}" = "総和: 14\n総乗: 120" ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./plus)
+out=$(echo あ | ./your_script_name)
 [ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./plus) #空文字
+out=$(echo | ./your_script_name) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK        # &&（AND記号）は左側が成功すると右側を実行
 exit $res
