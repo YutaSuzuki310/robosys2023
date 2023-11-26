@@ -16,5 +16,5 @@ for line in sys.stdin:
         num2 = float(line)
         ans *= num2
         ans2 += num2
-print(ans2)
-print(ans)
+print(f"総和: {ans2}")
+print(f"総乗: {ans}")
