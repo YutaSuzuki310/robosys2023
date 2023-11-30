@@ -10,7 +10,7 @@ ng () {
 res=0
 
 ### I/O TEST ###
-out=$(echo -e "2\n3\n4\n5" | ./plus)
+out=$(seq 5 | ./plus)
 [ "${out}" = "総和: 14\n総乗: 120" ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
