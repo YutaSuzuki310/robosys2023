@@ -1,5 +1,6 @@
 # robosys2023_1
 ロボットシステム学の課題１
+* ![test](https://github.com/yutasuzuki310/robosys2023/actions/workflows/test.yml/badge.svg)
 
 # Usage
 「plus」という名前のpythonのプログラムファイルを作成してください。
@@ -21,7 +22,6 @@ $ seq "自然数" | ./plus
 
 # Test environment
 * Ubuntu 20.04
-* ![test](https://github.com/yutasuzuki310/robosys2023/actions/workflows/test.yml/badge.svg)
 
 # Author
 * Yuta Suzuki
@@ -29,6 +29,6 @@ $ seq "自然数" | ./plus
 
 # License
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージのコードは，（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+* このパッケージのコードは，下記のリポジトリ（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 * https://github.com/ryuichiueda/robosys2023/tree/main
 * © 2023 Yuta Suzuki
