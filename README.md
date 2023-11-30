@@ -16,7 +16,7 @@ $ seq "自然数" | ./plus
 * Python(3.7～3.10)
 
 # Installation
-
+* git clone https://github.com/YutaSuzuki310/robosys2023/blob/main/plus
 
 # Test environment
 * Ubuntu 20.04
