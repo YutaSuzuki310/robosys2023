@@ -2,8 +2,8 @@
 ロボットシステム学の課題１
 
 # Requirement
-* Python(テスト済み: 3.7～3.10 ,環境: ubuntu)
-![test](https://github.com/yutasuzuki310/robosys2023/actions/workflows/test.yml/badge.svg)
+* Python(テスト済み: 3.7～3.10)
+* ![test](https://github.com/yutasuzuki310/robosys2023/actions/workflows/test.yml/badge.svg)
 
 # Usage
 「plus」という名前のpythonのプログラムファイルを作成してください。そして同様の名前のファイルのコードをgithubからコピー＆ペーストして保存して
